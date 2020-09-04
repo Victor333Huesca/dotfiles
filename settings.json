@@ -67,6 +67,7 @@
                 "hidden": false,
                 "name": "Fedora",
                 "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\fedoraremix\\home\\Victor",
                 "icon": "%USERPROFILE%\\.terminal\\fedora_logo.png",
                 "backgroundImage": "%USERPROFILE%\\.terminal\\fedora_logo.png",
                 "backgroundImageStretchMode": "none",
@@ -78,7 +79,8 @@
                 "guid": "{7f586916-8357-53d4-bb2b-ca96f639898a}",
                 "hidden": false,
                 "name": "WLinux",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\wmlinux\\home\\victor"
             },
             {
                 // Make changes here to the Ubuntu profile.
@@ -86,6 +88,7 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "\\\\wsl$\\ubuntu\\home\\victor",
                 "icon": "%USERPROFILE%\\.terminal\\ubuntu_logo.png",
                 "backgroundImage": "%USERPROFILE%\\.terminal\\ubuntu_logo.png",
                 "backgroundImageStretchMode": "none",

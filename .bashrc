@@ -24,10 +24,10 @@ export PS1="\[\e[0;32m\]\u\[\e[1;33m\]@\[\e[3;4;33m\]\h\[\e[00m\]: \[\e[1;34m\]\
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
 
 # WSL starts from Windows Home since WSL 2, one of the many solutions
-# is rebase in ~ from here.
-if [[ $PWD =~ /mnt/[a-z]/Users/[a-zA-Z_-\s]+ ]]; then
-	cd ~
-fi
+# is rebase in ~ from here. The other simple one is to use the terminal config.
+#if [[ $PWD =~ /mnt/[a-z]/Users/[a-zA-Z_-\s]+ ]]; then
+#	cd ~
+#fi
 
 export PATH="$PATH:/arm/toolchain/gcc-arm-9.2-2019.12-x86_64-aarch64-none-elf/bin"
 export EDITOR=nano
